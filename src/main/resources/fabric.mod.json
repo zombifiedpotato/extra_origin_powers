@@ -9,8 +9,8 @@
     "zombified_patato"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/ZombifiedPatato/",
+    "sources": "https://github.com/ZombifiedPatato/extra_origin_powers/"
   },
 
   "license": "MIT",
@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.github.ZombifiedPatato.extra_origin_powers.Main"
+    ],
+    "client": [
+      "com.github.ZombifiedPatato.extra_origin_powers.ClientMain"
     ]
   },
   "mixins": [
@@ -30,9 +33,9 @@
     "fabricloader": ">=0.14.6",
     "fabric": "*",
     "minecraft": "~1.18.2",
-    "java": ">=17"
+    "java": ">=17",
+    "origins": ">=1.4.1"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

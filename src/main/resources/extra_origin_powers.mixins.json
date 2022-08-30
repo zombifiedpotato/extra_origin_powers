@@ -4,9 +4,10 @@
   "package": "com.github.ZombifiedPatato.extra_origin_powers.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "CraftingScreenHandlerMixin"
   ],
   "client": [
-    "ExampleMixin"
+
   ],
   "injectors": {
     "defaultRequire": 1
