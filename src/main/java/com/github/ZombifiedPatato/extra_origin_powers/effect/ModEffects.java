@@ -12,6 +12,6 @@ public class ModEffects {
             new LightningEffect(StatusEffectCategory.HARMFUL, 3335601));
 
     public static void registerEffects() {
-        System.out.println("Registering StatusEffects for " + Main.MOD_ID);
+        Main.LOGGER.info("Registering StatusEffects for " + Main.MOD_ID);
     }
 }

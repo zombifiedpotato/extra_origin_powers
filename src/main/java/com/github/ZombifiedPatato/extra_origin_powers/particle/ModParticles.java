@@ -21,6 +21,6 @@ public class ModParticles {
 
 
     public static void registerModParticles() {
-        System.out.println("Registering Mod Particles for " + Main.MOD_ID);
+        Main.LOGGER.info("Registering Mod Particles for " + Main.MOD_ID);
     }
 }

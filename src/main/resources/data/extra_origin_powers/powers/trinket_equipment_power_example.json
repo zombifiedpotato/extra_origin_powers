@@ -1,0 +1,9 @@
+{
+  "type": "extra_origin_powers:starting_equipment",
+  "stacks": [
+    {
+      "item": "extra_origin_powers:potato_crown",
+      "amount": 1
+    }
+  ]
+}

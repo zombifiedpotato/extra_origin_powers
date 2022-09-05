@@ -1,6 +1,7 @@
 package com.github.ZombifiedPatato.extra_origin_powers;
 
 import com.github.ZombifiedPatato.extra_origin_powers.effect.ModEffects;
+import com.github.ZombifiedPatato.extra_origin_powers.item.ModItems;
 import com.github.ZombifiedPatato.extra_origin_powers.origins.condition.ModConditions;
 import com.github.ZombifiedPatato.extra_origin_powers.origins.power.ModPowers;
 import com.github.ZombifiedPatato.extra_origin_powers.particle.ModParticles;
@@ -19,5 +20,6 @@ public class Main implements ModInitializer {
 		ModConditions.registerModConditions();
 		ModPowers.registerPowers();
 		ModEffects.registerEffects();
+		ModItems.registerItems();
 	}
 }

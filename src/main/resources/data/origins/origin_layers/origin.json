@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "origins": [
+    "extra_origin_powers:breath_attack_example",
+    "extra_origin_powers:circle_attack_example"
+  ]
+}

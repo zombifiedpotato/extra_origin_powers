@@ -1,0 +1,11 @@
+{
+  "icon": {
+    "item": "minecraft:stick"
+  },
+  "impact": 1,
+  "powers": [
+    "extra_origin_powers:circle_attack_power_example",
+    "extra_origin_powers:trinket_equipment_power_example",
+    "extra_origin_powers:crafting_blocker_power_example"
+  ]
+}

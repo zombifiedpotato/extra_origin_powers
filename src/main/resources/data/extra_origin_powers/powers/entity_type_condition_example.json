@@ -1,0 +1,27 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:speed",
+        "duration": 600,
+        "amplifier": 0
+      },
+      {
+        "effect": "minecraft:resistance",
+        "duration": 600,
+        "amplifier": 0
+      }
+    ]
+  },
+  "condition": {
+    "type": "extra_origin_powers:entity_type_in_range",
+    "radius": 8,
+    "entity_types": [
+      "minecraft:sheep",
+      "minecraft:cow"
+    ]
+  },
+  "interval": 20
+}

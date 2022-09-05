@@ -1,0 +1,10 @@
+{
+  "icon": {
+    "item": "minecraft:apple"
+  },
+  "impact": 1,
+  "powers": [
+    "extra_origin_powers:breath_attack_power_example",
+    "extra_origin_powers:entity_type_condition_example"
+  ]
+}

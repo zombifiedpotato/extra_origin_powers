@@ -1,5 +1,6 @@
 package com.github.ZombifiedPatato.extra_origin_powers.origins.condition;
 
+import com.github.ZombifiedPatato.extra_origin_powers.Main;
 import io.github.apace100.apoli.power.factory.condition.ConditionFactory;
 import io.github.apace100.apoli.registry.ApoliRegistries;
 import io.github.apace100.calio.data.SerializableData;
@@ -19,7 +20,7 @@ import java.util.function.Predicate;
 
 public class ModConditions {
     public static final ConditionFactory<Entity> ENTITYTYPE_IN_RANGE = new ConditionFactory<>(
-            new Identifier("pumpkin_patch", "entity_type_in_range"),
+            new Identifier(Main.MOD_ID, "entity_type_in_range"),
             new SerializableData().add("entity_types",SerializableDataType.list(SerializableDataTypes.ENTITY_TYPE)).add("radius", SerializableDataTypes.FLOAT),
             ((instance, entity) -> {
                 float radius = instance.getFloat("radius");
