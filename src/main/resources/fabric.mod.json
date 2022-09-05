@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "Extra Origin Powers",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "I need to change this!",
   "authors": [
-    "zombified_patato"
+    "zombified_potato"
   ],
   "contact": {
-    "homepage": "https://github.com/ZombifiedPatato/",
-    "sources": "https://github.com/ZombifiedPatato/extra_origin_powers/"
+    "homepage": "https://github.com/zombifiedpotato/",
+    "sources": "https://github.com/zombifiedpotato/extra_origin_powers/"
   },
 
   "license": "MIT",
@@ -19,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.ZombifiedPatato.extra_origin_powers.Main"
+      "com.github.zombifiedpotato.extra_origin_powers.Main"
     ],
     "client": [
-      "com.github.ZombifiedPatato.extra_origin_powers.ClientMain"
+      "com.github.zombifiedpotato.extra_origin_powers.ClientMain"
     ]
   },
   "mixins": [

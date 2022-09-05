@@ -1,0 +1,21 @@
+{
+  "origin.extra_origin_powers.breath_attack_example.name": "Example Origin 1",
+  "origin.extra_origin_powers.circle_attack_example.name": "Example Origin 2",
+
+  "origin.extra_origin_powers.breath_attack_example.description": "This is an example origin from the Extra Origin Powers mod! It showcases the breath attack power, crafting blocker power and the entity type in range condition.",
+  "origin.extra_origin_powers.circle_attack_example.description": "This is an example origin from the Extra Origin Powers mod! It showcases the circle attack power, crafting blocker power and trinket starter equipment power.",
+
+  "power.extra_origin_powers.breath_attack_power_example.name": "Breath attack example",
+  "power.extra_origin_powers.circle_attack_power_example.name": "Circle attack example",
+  "power.extra_origin_powers.crafting_blocker_power_example.name": "Crafting blocker example",
+  "power.extra_origin_powers.entity_type_condition_example.name": "Entity type in range example",
+  "power.extra_origin_powers.trinket_equipment_power_example.name": "Trinket starter equipment example",
+
+  "power.extra_origin_powers.breath_attack_power_example.description": "This breath attack shoots a line of \"acid\" dealing 2.5 damage and giving wither 2 for 100 ticks to anyone who is hit.",
+  "power.extra_origin_powers.circle_attack_power_example.description": "This circle attack throws away entities in a 6 block radius giving them slowness and giving the one using this power resistance.",
+  "power.extra_origin_powers.crafting_blocker_power_example.description": "This power allows this origin to craft items from extra_origin_powers, blocking them for all other origins who don't have this mod in their crafting blocker.",
+  "power.extra_origin_powers.entity_type_condition_example.description": "This power gives the user speed and resistance if a sheep or cow is in place.",
+  "power.extra_origin_powers.trinket_equipment_power_example.description": "This power tries to equip the potato_crown to the user, if it fails it will give it in its inventory.",
+
+  "item.extra_origin_powers.potato_crown": "Potato Crown"
+}
