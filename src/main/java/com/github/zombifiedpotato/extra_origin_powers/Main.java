@@ -1,6 +1,5 @@
 package com.github.zombifiedpotato.extra_origin_powers;
 
-import com.github.zombifiedpotato.extra_origin_powers.effect.ModEffects;
 import com.github.zombifiedpotato.extra_origin_powers.item.ModItems;
 import com.github.zombifiedpotato.extra_origin_powers.origins.condition.ModConditions;
 import com.github.zombifiedpotato.extra_origin_powers.origins.power.ModPowers;
@@ -19,7 +18,6 @@ public class Main implements ModInitializer {
 		ModParticles.registerModParticles();
 		ModConditions.registerModConditions();
 		ModPowers.registerPowers();
-		ModEffects.registerEffects();
 		ModItems.registerItems();
 	}
 }
