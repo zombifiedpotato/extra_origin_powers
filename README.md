@@ -17,3 +17,14 @@ Extra Origin Powers is a mod which adds some unique powers and conditions for da
 
 ## Developers
 To add Extra Origin Powers to your project you have to add the jitpack repository.
+~~~
+repositories {
+      maven { url 'https://jitpack.io' }
+}
+~~~
+Then add the dependency
+~~~
+dependencies {
+      modImplementation "com.github.zombifiedpotato:extra_origin_powers:$version"
+}
+~~~
