@@ -1,5 +1,5 @@
 # Extra Origin Powers
-Extra Origin Powers is a mod which adds some unique powers for datapack developers to use with origins. On the moment it adds four powers and one new condition for origins. The powers and conditions are listed below, but for complete specifications you can look at the wiki. You can also take a look at the two example origins to see how the powers work. If there are any problems you can let me know!
+Extra Origin Powers is a mod which adds some unique powers and conditions for datapack developers to use with origins. On the moment it adds four powers and one new condition for origins. The powers and conditions are listed below, but for complete specifications you can look at the wiki. You can also take a look at the two example origins to see how the powers work. If there are any problems or suggestions you can let me know!
 
 ## Powers
 - Breath Weapon
