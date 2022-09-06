@@ -14,3 +14,6 @@ Extra Origin Powers is a mod which adds some unique powers and conditions for da
 ## Conditions
 - Entity Type in Range
   - Checks if the specified entity type(s) is currently in a specified range.
+
+## Developers
+To add Extra Origin Powers to your project you have to add the jitpack repository.
